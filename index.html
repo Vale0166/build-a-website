@@ -6,55 +6,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
-  <!-- Include the tag for introductory content -->
+ <!-- Include the tag for introductory content -->
 
     <!-- Display stuff you should know logo nested in an anchor tag to link to index.html -->
   
     <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
-
-
-
+<body>
+  <Header role="banner">
+  <img src="/images/sysk-logo.webp" alt="Stuff You Should Know Podcast">
+  <nav role="navigation" id="nav">
+<ul>
+  <li><a href="#About">About</a></li>
+  <li><a href="#Episodes">Episodes</a></li>
+</ul>
+ </nav>
+  
+    
+<h1>Stuff You Should Know Podcast</h1>
+ </Header>
+ 
   <!-- Add an element that represents the main content of the page --> 
+<main role="main" id="main">
+  <section id="About">
+    <h2>About the Podcast</h2>
+    <article>
+      <p>Stuff You Should Know, often abbreviated as SYSK, is a free, award-winning podcast and video series published by the HowStuffWorks website and hosted by Josh Clark and Charles W. "Chuck" Bryant, both writers at HowStuffWorks.</p>
+      <p>The podcast, released every Tuesday and Thursday, educates listeners on a wide variety of topics, often using popular culture as a reference giving the podcast comedic value.</p>
+<h3>Facts about the show:</h3>
+<ul>
+<li>Show is downloaded more than 1 million times per week.</li>
+<li>Hasbro released a special edition of Trivial Pursuit: The Stuff You Should Know Edition based on episodes from the podcast.</li>
+<li>Josh and Chuck receive over 350 pieces of fan mail a week.</li>
 
-    <!-- Main heading for the page -->
-    Stuff You Should Know Podcast
+</ul>
+<a href="#About">Read more about the show and hosts</a>
+    
+    </article>
+  </section>
 
-    <!-- Include a tag that groups the 'About' and 'Facts' content -->
-      
-      <!-- Section heading -->
-      About the Podcast
-      
-      Stuff You Should Know, often abbreviated as SYSK, is a free, award-winning podcast and video series published by the HowStuffWorks website and hosted by Josh Clark and Charles W. "Chuck" Bryant, both writers at HowStuffWorks.
-      
-      The podcast, released every Tuesday and Thursday, educates listeners on a wide variety of topics, often using popular culture as a reference giving the podcast comedic value.
+  <section id="Episodes">
+<h2>Featured Episodes</h2>
+<h3>Interesting Orgins of Everyday Phases</h3>
+<img src="/images/everyday-phrases.jpeg" alt="Interesting Orgins Of Everyday Phases">
+<p>We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!</p>
+<a href="../build-a-website/episodes/everyday-phrases.html">Learn More</a>
+  </section>
 
-      <!-- Section sub-heading, followed by a list -->
-      Facts about the show:
-
-      -Show is downloaded more than 1 million times per week.
-      -Hasbro released a special edition of Trivial Pursuit: The Stuff You Should Know Edition based on episodes from the podcast.
-      -Josh and Chuck receive over 350 pieces of fan mail a week.
-      
-      <!-- Link to about.html -->
-      Read more about the show and hosts
-
-
-    <!-- Include a tag that groups the 'Featured Episodes' content -->  
-
-      <!-- Section heading -->
+  <section>
+    <h3> Doppelgängers: Hey you, you're me!</h3>
+    <img src="/images/doppelgangers.jpeg" alt="Image of doppelgängers looking at each other">
+    <p>Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!</p>
+ <a href="../build-a-website/episodes/fake-towns.html">Learn More</a>
+  </section>
+</main>
+    
       Featured Episodes
 
       <!-- Include a tag for independent, self-contained content content -->
 
         <!-- Section sub-heading -->
         Interesting Origins of Everday Phrases
-        
-        <!-- Display image relevant to topic -->
-        
-        We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!
+    
 
         <!-- Link to existing html page within episodes directory; relevant to topic -->
         Learn more
@@ -74,15 +86,7 @@
         Learn more
       
 
-
-      <!-- Include a tag for independent, self-contained content content -->
-        
-        <!-- Section sub-heading -->
-        Doppelgängers: Hey you, you're me!
-
-        <!-- Display image relevant to topic -->
-
-        Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!
+    
 
         <!-- Link to existing html page within episodes directory; relevant to topic -->
         Learn more
